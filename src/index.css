@@ -95,7 +95,7 @@ code {
     border: #1CDBF5 2px solid;
     outline: none;
     border-radius: 8px;
-    width: 350px;
+    width: 310px;
     font-size: 18px;
     padding: 10px 15px;
     margin: 0 15px 15px 15px;
@@ -168,20 +168,6 @@ code {
 
     .delete-icon {
         height: 18px;
-        cursor: pointer;
-    }
-
-    .add-button {
-        background-color: #1CDBF5;
-        outline: none;
-        border: none;
-        color: #131A28;
-        font-size: 15px;
-        font-weight: bolder;
-        padding: 9px 15px;
-        border-radius: 8px;
-        text-align: center;
-        margin: auto 10px;
         cursor: pointer;
     }
 }
