@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import trash from './trash.svg'
 
 function App() {
     const [taskInput, updateTaskInput] = useState("");
@@ -64,7 +65,7 @@ function ListItem(props) {
         <div className="list-item row jc-space-between">
             <span className={props.itemData.isComplete ? 'task-complete' : ''}
                   onClick={() => props.markComplete(props.index)}>{props.itemData.isComplete ? `✅ ` : ''}&nbsp;{props.itemData?.description}</span>
-            <img className="delete-icon" src="/trash.svg" alt="delete-task"
+            <img className="delete-icon" src={trash} alt="delete-task"
                  onClick={() => props.deleteTask(props.index)}/>
         </div>
     );
