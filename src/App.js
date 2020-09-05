@@ -35,7 +35,7 @@ function App() {
 
     return (
         <div className="app-background">
-            <p className="heading-text">React To Do List <span role="img">🔥</span></p>
+            <p className="heading-text">React To Do List <span role="img" aria-label="react">🔥</span></p>
             <div className="task-container column">
                 <div className="row">
                     <input
@@ -52,7 +52,7 @@ function App() {
                     toDoList.map((toDoObject, index) =>
                         <ListItem key={index} itemData={toDoObject} markComplete={markComplete}
                                   index={index} deleteTask={deleteTask}/>) :
-                    <p className="no-item-text">📌 &nbsp;No Task Added !</p>}
+                    <p className="no-item-text"><span role="img" aria-label="react">📌</span> &nbsp;No Task Added !</p>}
             </div>
             <p className="footer-text">The Indian Dev</p>
         </div>
