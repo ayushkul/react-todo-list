@@ -246,6 +246,19 @@ code {
         align-items: center;
     }
 
+    .add-button {
+        background-color: #1CDBF5;
+        outline: none;
+        border: none;
+        color: #131A28;
+        font-size: 17px;
+        font-weight: bolder;
+        padding: 10px 15px;
+        border-radius: 8px;
+        text-align: center;
+        margin: 15px;
+        cursor: pointer;
+    }
 }
 
 
